@@ -1,0 +1,73 @@
+.group {
+    background-image: linear-gradient(to top right, #433CA0, #4EC4CA);
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.group-content {
+    align-self: center;
+    color: #FFFFFF;
+    width: 200px;
+}
+
+.group-number {
+    height: 100px;
+    position: relative;
+}
+
+.group-number>div {
+    position: absolute;
+    top: 0;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 1.5rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+
+.group-number>div:first-child {
+    left: -15px;
+    width: 20px;
+    height: 40%;
+    rotate: 50deg;
+}
+
+.group-number>div:nth-child(2) {
+    left: 0;
+    height: 100%;
+    z-index: 10;
+}
+
+.group-number>div:nth-child(3),
+.group-number>div:nth-child(4) {
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1.5rem solid #FFFFFF;
+}
+
+.group-number>div:nth-child(3) {
+    left: 1rem;
+    z-index: 5;
+}
+
+.group-number>div:nth-child(4) {
+    right: 0;
+}
+
+.group-content>span {
+    display: block;
+    font-weight: 700;
+}
+
+.group-content>span:nth-child(2) {
+    font-size: 5rem;
+    margin-top: 5px;
+    line-height: 0.75;
+}
+
+.group-content>span:last-child {
+    color: white;
+    font-size: 1.5rem;
+}

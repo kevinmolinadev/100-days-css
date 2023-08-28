@@ -1,0 +1,28 @@
+.day-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+.day-title{
+    font-size: 2.5rem;
+    margin-block: 1rem;
+    font-weight: 700;
+}
+.day-content{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+a, a:hover, a:visited, a:active{
+    color: black;
+    text-decoration: none;
+}
+.day-description{
+    font-size: 1.3rem;
+    margin-block: 1rem;
+}
+.day-description > a{
+    font-weight: 700;
+    text-decoration: none;
+}
