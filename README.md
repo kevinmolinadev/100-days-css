@@ -15,8 +15,8 @@ Cada diseño diario es una oportunidad para explorar diferentes técnicas y efec
 
 ## 📂 Estructura del Repositorio
 
-- `Days-Css/`: Carpetas donde están los diseños individuales.
-- `Days-Tailwind/`: Carpetas donde están los diseños individuales con Tailwind.
+- `src/components/Days-Css/`: Carpetas donde están los diseños individuales.
+- `src/components/Days-Tailwind/`: Carpetas donde están los diseños individuales con Tailwind.
 
 ## 🌐 Enlaces
 - **Diseño en vivo**: [Ver aquí](https://mi-sitio.com/100-days-css)
