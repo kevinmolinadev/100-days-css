@@ -12,6 +12,10 @@ const Challenge = () => {
             <Days.Day2 />
             <Days.Day2Tailwind />
          </Day>
+         <Day title="Day 3" description="The Pyramide: Not as challenging as the real pyramids in Egypt, but the shadow path is not easy.">
+            <Days.Day3 />
+            <Days.Day3Tailwind />
+         </Day>
       </section>
    )
 }

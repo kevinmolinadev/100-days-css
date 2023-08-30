@@ -1,0 +1,157 @@
+.group-content-pyramide {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.group-pyramide {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    animation: group-pyramide 3s infinite linear;
+}
+
+.group-pyramide> :first-child {
+    background-color: #7DDFFC;
+    width: 100%;
+    height: 70%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.sun {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: #F0DE75;
+    border-radius: 50%;
+    transform-origin: 50% 400%;
+    top: 10px;
+    animation: sun 3s infinite ease-in-out;
+}
+
+.pyramid {
+    position: absolute;
+    bottom: -1px;
+    width: 60%;
+    height: 40%;
+    background-color: #dddddd;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.pyramid-shadow-left {
+    position: absolute;
+    bottom: -1px;
+    width: 60%;
+    height: 40%;
+    z-index: 10;
+    clip-path: polygon(50% 0%, 0% 100%, 65% 100%);
+    animation: shadow-left 3s infinite linear;
+}
+
+.pyramid-shadow-right {
+    position: absolute;
+    bottom: -1px;
+    width: 60%;
+    height: 40%;
+    z-index: 10;
+    clip-path: polygon(50% 0%, 65% 100%, 100% 100%);
+    animation: shadow-right 3s infinite linear;
+}
+
+.group-pyramide> :last-child {
+    background-color: #F0DE75;
+    width: 100%;
+    height: 30%;
+    position: relative;
+}
+.shadow-sun{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #C0B25E;
+    animation: shadow-sun 3s infinite linear;
+}
+@keyframes group-pyramide {
+    0% {
+        opacity: 0;
+    }
+
+    30%,
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes sun {
+    0% {
+        rotate: -70deg;
+    }
+
+    30% {
+        rotate: -30deg;
+    }
+
+    100% {
+        rotate: 70deg;
+    }
+}
+
+@keyframes shadow-right {
+    0% {
+        background-color: #8a8a8a;
+    }
+
+    30% {
+        background-color: #cecece;
+    }
+
+    80% {
+        background-color: #ffffff;
+    }
+
+    100% {
+        background-color: #bebebe;
+    }
+}
+
+@keyframes shadow-left {
+    0% {
+        background-color: #bebebe;
+    }
+
+    20% {
+        background-color: #ffffff;
+    }
+
+    50% {
+        background-color: #dddddd;
+    }
+
+    100% {
+        background-color: #8a8a8a;
+    }
+}
+
+@keyframes shadow-sun {
+    0%{
+        clip-path: polygon(20% 0%, 100% 10%, 80% 0%);
+    }
+    30%{
+        clip-path: polygon(20% 0%, 100% 30%, 80% 0%);
+    }
+    70%{
+        clip-path: polygon(20% 0%, 0% 80%, 80% 0%);
+    }
+    100%{
+        clip-path: polygon(20% 0%, 0% 20%, 80% 0%);
+    }
+}
+
