@@ -16,6 +16,10 @@ const Challenge = () => {
             <Days.Day3 />
             <Days.Day3Tailwind />
          </Day>
+         <Day title="Day 4" description="Loading: The best are always websites that do not need a loading status. If they do, here would be a calming one.">
+            <Days.Day4 />
+            <Days.Day4Tailwind />
+         </Day>
       </section>
    )
 }

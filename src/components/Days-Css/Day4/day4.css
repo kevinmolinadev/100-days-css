@@ -1,0 +1,59 @@
+.group-loanding{
+    background-color: #E56262;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.group-loanding > *{
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+}
+.group-loanding > .first{
+    width: 25%;
+    height: 25%;
+    animation: load 5s ease-in-out  infinite;
+}
+.group-loanding > .second{
+    width: 15%;
+    height: 15%;
+    z-index: 10;
+    animation: load-second 5s ease-in-out  infinite;
+}
+.group-loanding > .third{
+    width: 7%;
+    height: 7%;
+    z-index: 20;
+    animation: load-third 5s ease-in-out  infinite;
+}
+@keyframes load {
+    0%,85%,100%{
+        scale: 0;
+        box-shadow: none;
+    }
+    40%,65%{
+        scale: 1;
+        box-shadow: 5px 7px 12px rgba(0,0,0,0.4);
+    }
+}
+@keyframes load-second {
+    0%,25%,75%,100%{
+        scale: 0;
+        box-shadow: none;
+    }
+    40%,55%{
+        scale: 1;
+        box-shadow: 5px 7px 12px rgba(0,0,0,0.4);
+    }
+}
+@keyframes load-third {
+    0%,35%,60%,100%{
+        scale: 0;
+        box-shadow: none;
+    }
+    45%,50%{
+        scale: 1;
+        box-shadow: 5px 7px 12px rgba(0,0,0,0.4);
+    }
+}
