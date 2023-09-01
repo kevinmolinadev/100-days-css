@@ -20,6 +20,10 @@ const Challenge = () => {
             <Days.Day4 />
             <Days.Day4Tailwind />
          </Day>
+         <Day title="Day 5" description="Statistic: In a world of numbers, it is important to be able to interpret them correctly. Beautiful statistics help to capture these data.">
+            <Days.Day5 />
+            <Days.Day5Tailwind />
+         </Day>
       </section>
    )
 }

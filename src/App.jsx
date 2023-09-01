@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="bg-gray-200 p-px">
+      <main className="p-px">
         <Challenge />
       </main>
       <Footer />

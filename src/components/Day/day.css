@@ -22,7 +22,6 @@ a, a:hover, a:visited, a:active{
 }
 .day-description{
     margin-block: 1rem;
-    padding-inline: 3rem;
 }
 .day-description > a{
     font-weight: 700;
