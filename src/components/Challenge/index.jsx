@@ -24,6 +24,10 @@ const Challenge = () => {
             <Days.Day5 />
             <Days.Day5Tailwind />
          </Day>
+         <Day title="Day 6" description="Profile: Who of you knows how many social media profiles you have already created? For a refreshing twist, you can also create one yourself.">
+            <Days.Day6 />
+            <Days.Day6Tailwind />
+         </Day>
       </section>
    )
 }

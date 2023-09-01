@@ -19,7 +19,7 @@ Cada diseño diario es una oportunidad para explorar diferentes técnicas y efec
 - `src/components/Days-Tailwind/`: Carpetas donde están los diseños individuales con Tailwind.
 
 ## 🌐 Enlaces
-- **Diseño en vivo**: [Ver aquí](https://mi-sitio.com/100-days-css)
+- **Diseño en vivo**: [Ver aquí](https://molinalk.github.io/100-days-css)
 - [Challenge](https://100dayscss.com/)
 ---
 ¡Gracias por visitar mi repositorio! Espero que disfrutes explorando mis diseños y aprendizaje en diseño web con CSS y Tailwind CSS.
