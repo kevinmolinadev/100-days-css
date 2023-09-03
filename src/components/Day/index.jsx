@@ -8,7 +8,7 @@ const Day = ({children,title, description }) => {
             <div className="day-content">
                 {children}
             </div>
-            <p className="day-description px-12 lg:px-[12%]  text-lg md:text-xl lg:text-2xl"><a target="_blank"  href={"https://100dayscss.com/days/"+dayNumber} rel="noreferrer">{dayDescription[0]+":"}</a>{dayDescription[1]}</p>
+            <p className="day-description px-12 lg:px-[12%]   md:text-lg lg:text-xl"><a target="_blank"  href={"https://100dayscss.com/days/"+dayNumber} rel="noreferrer">{dayDescription[0]+":"}</a>{dayDescription[1]}</p>
         </div>
     )
 }

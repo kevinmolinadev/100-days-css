@@ -10,6 +10,8 @@ import Day5 from '../Days-Css/Day5';
 import Day5Tailwind from '../Days-Tailwind/Day5';
 import Day6 from '../Days-Css/Day6';
 import Day6Tailwind from '../Days-Tailwind/Day6';
+import Day7 from '../Days-Css/Day7';
+import Day7Tailwind from '../Days-Tailwind/Day7';
 const Days = {
     Day1,
     Day1Tailwind,
@@ -22,6 +24,8 @@ const Days = {
     Day5,
     Day5Tailwind,
     Day6,
-    Day6Tailwind
+    Day6Tailwind,
+    Day7,
+    Day7Tailwind
 }
 export default Days;

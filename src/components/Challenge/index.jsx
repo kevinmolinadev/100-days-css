@@ -1,6 +1,7 @@
 import './challenge.css'
 import Day from "../Day";
 import Days from './Days';
+import NextDay from '../NextDay';
 const Challenge = () => {
    return (
       <section>
@@ -28,6 +29,11 @@ const Challenge = () => {
             <Days.Day6 />
             <Days.Day6Tailwind />
          </Day>
+         <Day title="Day 7" description="Notifications, Search and Menu: The three cornerstones of any application? Brought together in the smallest possible space.">
+            <Days.Day7 />
+            <Days.Day7Tailwind />
+         </Day>
+         <NextDay></NextDay>
       </section>
    )
 }
