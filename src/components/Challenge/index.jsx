@@ -33,6 +33,10 @@ const Challenge = () => {
             <Days.Day7 />
             <Days.Day7Tailwind />
          </Day>
+         <Day title="Day 8" description="Metaballs: At first glance impossible to implement with CSS, but filters make this possible too.">
+            <Days.Day8 />
+            <Days.Day8Tailwind />
+         </Day>
          <NextDay></NextDay>
       </section>
    )

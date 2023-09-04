@@ -1,0 +1,148 @@
+.group-day8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.content-day8 {
+    background-color: #FFFFFF;
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-day8>* {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    animation: loadDay8;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+.content-day8>:nth-child(n+3) {
+    animation: loadDay8, scaleday8;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+.content-day8>:first-child {
+    width: 80%;
+    height: 100%;
+    transform-origin: 50% 45%;
+}
+
+.content-day8>:nth-child(2) {
+    width: 80%;
+    height: 100%;
+    transform-origin: 50% 55%;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+.content-day8>:nth-child(3) {
+    width: 8%;
+    height: 8%;
+    transform-origin: -50% -600%;
+    animation-duration: 4s;
+}
+
+.content-day8>:nth-child(4) {
+    width: 5%;
+    height: 5%;
+    transform-origin: 0% -1000%;
+    animation-delay: 2s;
+}
+
+.content-day8>:nth-child(5) {
+    width: 7%;
+    height: 7%;
+    transform-origin: -100% -800%;
+    animation-delay: 3s;
+}
+
+.content-day8>:nth-child(6) {
+    width: 10%;
+    height: 10%;
+    transform-origin: -100% 400%;
+    animation-delay: 4s;
+}
+
+.content-day8>:nth-child(7) {
+    width: 8%;
+    height: 8%;
+    transform-origin: 100% 700%;
+}
+
+.content-day8>:nth-child(8) {
+    width: 12%;
+    height: 12%;
+    transform-origin: -200% 300%;
+    animation-delay: 1s;
+}
+
+.content-day8>:nth-child(9) {
+    width: 10%;
+    height: 10%;
+    transform-origin: 50% 400%;
+    animation-delay: 2s;
+}
+
+.content-day8>:nth-child(10) {
+    width: 9%;
+    height: 9%;
+    transform-origin: 100% 500%;
+    animation-delay: 3s;
+}
+
+.content-day8>:nth-child(11) {
+    width: 3%;
+    height: 3%;
+    transform-origin: 600% -1600%;
+    animation-delay: 4s;
+}
+
+@keyframes loadDay8 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    20% {
+        transform: rotate(5deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scaleday8 {
+    0% {
+        scale: 1;
+    }
+
+    60% {
+        scale: 1.3;
+    }
+
+    70% {
+        scale: 1.7;
+    }
+
+    80% {
+        scale: 2;
+    }
+
+    100% {
+        scale: 1.5;
+    }
+}
