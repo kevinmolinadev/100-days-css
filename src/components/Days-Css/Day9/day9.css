@@ -1,0 +1,326 @@
+.group-day9 {
+    position: relative;
+    font-family: sans-serif;
+    box-shadow: 1px 4px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.day9-body {
+    height: 75%;
+    background-color: #1A2238;
+    position: relative;
+    overflow: hidden;
+}
+
+.body-moon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #f7ecb2;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 8px 1px #f8eba2;
+    left: 15%;
+    top: 15%;
+}
+
+.body-moon>* {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #e7e0b5;
+}
+
+.body-moon>:first-child {
+    width: 15%;
+    height: 15%;
+    top: 8px;
+
+}
+
+.body-moon>:nth-child(2) {
+    width: 10%;
+    height: 10%;
+    top: 38%;
+    left: 40%;
+}
+
+.body-moon>:nth-child(3) {
+    width: 6%;
+    height: 6%;
+    top: 35%;
+    left: 20%;
+}
+
+.body-moon>:nth-child(4) {
+    width: 15%;
+    height: 15%;
+    top: 15%;
+    left: 3%;
+}
+
+.body-moon>:nth-child(5) {
+    width: 15%;
+    height: 15%;
+    bottom: 2%;
+    left: 15%;
+}
+
+.body-moon>:nth-child(6) {
+    width: 10%;
+    height: 10%;
+    bottom: 12%;
+    left: 55%;
+}
+
+.body-moon>:nth-child(7) {
+    width: 10%;
+    height: 10%;
+    bottom: 35%;
+    left: 25%;
+}
+
+.body-moon>:nth-child(8) {
+    width: 10%;
+    height: 10%;
+    bottom: 35%;
+    left: 70%;
+}
+
+.body-moon>:nth-child(9) {
+    width: 10%;
+    height: 10%;
+    top: 35%;
+    left: 92%;
+}
+
+.body-moon>:nth-child(10) {
+    width: 10%;
+    height: 10%;
+    top: 25%;
+    left: 68%;
+}
+
+.body-moon>:nth-child(11) {
+    width: 6%;
+    height: 6%;
+    top: 55%;
+    left: 55%;
+}
+
+.day9-body>:nth-child(n+2) {
+    position: absolute;
+    background-color: #2b3452;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.day9-body>:nth-child(n+5) {
+    background-color: #1f2c50;
+}
+
+.day9-body>:nth-child(2) {
+    bottom: -80%;
+    left: -50%;
+    z-index: 5;
+}
+
+.day9-body>:nth-child(3) {
+    width: 90%;
+    bottom: -70%;
+    left: 15%;
+    z-index: 10;
+}
+
+.day9-body>:nth-child(4) {
+    bottom: -75%;
+    left: 80%;
+    z-index: 5;
+}
+
+.day9-body>:nth-child(5) {
+    bottom: -65%;
+    left: -25%;
+}
+
+.day9-body>:nth-child(6) {
+    bottom: -65%;
+    left: 40%;
+}
+
+.day9-body-rain {
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    overflow: hidden;
+    top: 0;
+    z-index: 10;
+}
+
+.day9-body-rain>* {
+    width: 5px;
+    height: 0.7rem;
+    background-color: #0099ff;
+    position: absolute;
+    border-radius: 50%;
+    clip-path: polygon(50% 0%, 100% 70%, 85% 100%, 15% 100%, 0% 70%);
+    rotate: 10deg;
+    left: 50%;
+    top: -50px;
+    animation: rain 1s infinite linear;
+}
+
+.day9-body-rain>:nth-child(1) {
+    left: 10%;
+}
+
+.day9-body-rain>:nth-child(2) {
+    left: 20%;
+    animation-delay: 0.3s;
+}
+
+.day9-body-rain>:nth-child(3) {
+    left: 30%;
+    animation-delay: 0.5s;
+}
+
+.day9-body-rain>:nth-child(4) {
+    left: 40%;
+    animation-delay: 1s;
+}
+
+.day9-body-rain>:nth-child(5) {
+    left: 50%;
+    animation-delay: 0.1s;
+}
+
+.day9-body-rain>:nth-child(6) {
+    left: 60%;
+    animation-delay: 3s;
+}
+
+.day9-body-rain>:nth-child(7) {
+    left: 70%;
+    animation-delay: 0.7s;
+}
+
+.day9-body-rain>:nth-child(8) {
+    left: 80%;
+    animation-delay: 1.4s;
+}
+
+.day9-body-rain>:nth-child(9) {
+    left: 90%;
+    animation-delay: 1.2s;
+}
+
+.day9-body-rain>:nth-child(10) {
+    background-color: #7eccff;
+    scale: 2.5;
+    left: 20%;
+}
+
+.day9-body-rain>:nth-child(11) {
+    background-color: #7eccff;
+    scale: 2.5;
+    animation-delay: 0.5s;
+    left: 40%;
+}
+
+.day9-body-rain>:nth-child(12) {
+    background-color: #7eccff;
+    scale: 2.5;
+    animation-delay: 0.1s;
+    left: 60%;
+}
+
+.day9-body-rain>:nth-child(13) {
+    background-color: #7eccff;
+    scale: 2.5;
+    animation-delay: 0.4s;
+    left: 80%;
+}
+
+.day9-body-rain>:nth-child(14) {
+    background-color: #7eccff;
+    scale: 2.5;
+    animation-delay: 0.2s;
+    left: 100%;
+}
+
+.day9-body-rain>:nth-child(15) {
+    background-color: #7eccff;
+    scale: 2.5;
+    animation-delay: 0.3s;
+    left: 5%;
+}
+
+.day9-body-rain>:nth-child(16) {
+    background-color: #7eccff;
+    scale: 2.5;
+    animation-delay: 0.6s;
+    left: 75%;
+}
+
+.day9-footer {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.day9-footer>p {
+    font-size: 3rem;
+}
+
+.day9-footer> :nth-child(2) {
+    opacity: 0.5;
+    flex-grow: 1;
+    text-align: left;
+}
+
+.day9-footer> :nth-child(3) {
+    opacity: 0.5;
+    text-align: right;
+    white-space: pre;
+}
+
+.day9-footer> :nth-child(3) span {
+    opacity: 1;
+    font-weight: 600;
+}
+
+@keyframes rain {
+    0% {
+        top: 0;
+        translate: 0 0;
+    }
+
+    70% {
+        top: 97%;
+        rotate: 0deg;
+        translate: 0 -400;
+        clip-path: polygon(50% 35%, 100% 70%, 85% 100%, 15% 100%, 0% 70%);
+    }
+
+    80% {
+        clip-path: ellipse(50% 25% at 50% 50%);
+        rotate: 180deg;
+
+    }
+
+    90% {
+        clip-path: ellipse(50% 15% at 50% 50%);
+    }
+
+    100% {
+        rotate: 180deg;
+        clip-path: ellipse(50% 5% at 50% 50%);
+        top: 97%;
+        translate: -500% 0;
+    }
+
+}

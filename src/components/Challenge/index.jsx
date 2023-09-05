@@ -37,6 +37,10 @@ const Challenge = () => {
             <Days.Day8 />
             <Days.Day8Tailwind />
          </Day>
+         <Day title="Day 9" description="Rainy Night: The perfect time of day and the perfect weather to program in peace. The raindrops even shatter on the ground.">
+            <Days.Day9 />
+            <Days.Day9Tailwind />
+         </Day>
          <NextDay></NextDay>
       </section>
    )
