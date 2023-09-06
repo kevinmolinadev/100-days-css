@@ -41,6 +41,10 @@ const Challenge = () => {
             <Days.Day9 />
             <Days.Day9Tailwind />
          </Day>
+         <Day title="Day 10" description="Watch: Classic, noble, modern or playful? What do you want your favorite watch to look like?">
+            <Days.Day10 />
+            <Days.Day10Tailwind />
+         </Day>
          <NextDay></NextDay>
       </section>
    )
