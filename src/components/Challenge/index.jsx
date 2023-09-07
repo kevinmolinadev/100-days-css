@@ -45,6 +45,10 @@ const Challenge = () => {
             <Days.Day10 />
             <Days.Day10Tailwind />
          </Day>
+         <Day title="Day 11" description="Walking Boots: These boots are made for walking. Where are they going and for how long?">
+            <Days.Day11 />
+            <Days.Day11Tailwind />
+         </Day>
          <NextDay></NextDay>
       </section>
    )
