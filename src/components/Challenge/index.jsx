@@ -49,7 +49,11 @@ const Challenge = () => {
             <Days.Day11 />
             <Days.Day11Tailwind />
          </Day>
-         <NextDay></NextDay>
+         <Day title="Day 12" description="Tooltip: I'm quite sure, you already know what obsession means. But you can look it up anyways.">
+             <Days.Day12 />
+            <Days.Day12Tailwind />
+         </Day>
+         <NextDay />
       </section>
    )
 }
