@@ -56,6 +56,9 @@ const Challenge = () => {
          <Day title="Day 13" description="User Gallery: An idea for a transition between user overview and profile page.">
             <Days.Day13 />
          </Day>
+         <Day title="Day 14" description="Byciclopter: Which side of the card do you want to use? Either drive or fly to work in the morning?">
+            <Days.Day14 />
+         </Day>
          <NextDay />
       </section>
    )

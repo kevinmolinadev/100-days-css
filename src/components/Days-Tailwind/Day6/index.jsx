@@ -4,11 +4,11 @@ const Day6 = () => {
             <div className="w-4/5 h-3/4 bg-white flex m-auto rounded overflow-hidden font-sans">
                 <div className="w-4/6 h-full flex flex-col p-4">
                     <div className="h-3/5 flex flex-col items-center">
-                        <di1 className="relative mt-4 mb-2 rounded-full">
+                        <div className="relative mt-4 mb-2 rounded-full">
                             <img className="w-24 h-24 object-cover p-1 rounded-full" src="https://i3.wp.com/www.gamespot.com/a/uploads/screen_kubrick/1713/17133350/4000739-psyduck-sailor-moon.jpg" alt="psyduck" />
                             <div className="absolute z-20 top-0 w-full h-full  rounded-full border-2 border-slate-400 border-l-transparent duration-1000 hover:rotate-[360deg] hover:cursor-pointer"/>
                             <div className="absolute z-10 top-0 w-full h-full rounded-full border-2 border-slate-400 border-r-transparent scale-110 duration-1000 hover:-rotate-[360deg] hover:cursor-pointer"/>
-                        </di1>
+                        </div>
                         <p className="font-semibold ">Psyduck</p>
                         <p className="text-xs">Pokem</p>
                     </div>
