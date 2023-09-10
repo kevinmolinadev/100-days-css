@@ -59,6 +59,9 @@ const Challenge = () => {
          <Day title="Day 14" description="Byciclopter: Which side of the card do you want to use? Either drive or fly to work in the morning?">
             <Days.Day14 />
          </Day>
+         <Day title="Day 15" description="Upload: Yes, you can actually drag and drop a file in there. But don't worry, the upload process is faked.">
+            <Days.Day15 />
+         </Day>
          <NextDay />
       </section>
    )
