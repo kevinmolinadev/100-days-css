@@ -62,6 +62,9 @@ const Challenge = () => {
          <Day title="Day 15" description="Upload: Yes, you can actually drag and drop a file in there. But don't worry, the upload process is faked.">
             <Days.Day15 />
          </Day>
+         <Day title="Day 16" description="Blobby: It appears, wobbles, changes its shape and disappears again. Just like that.">
+            <Days.Day16 />
+         </Day>
          <NextDay />
       </section>
    )
