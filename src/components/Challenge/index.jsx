@@ -65,6 +65,9 @@ const Challenge = () => {
          <Day title="Day 16" description="Blobby: It appears, wobbles, changes its shape and disappears again. Just like that.">
             <Days.Day16 />
          </Day>
+         <Day title="Day 17" description="Penrose Triangle: CSS makes even the impossible possible. Can you find out how it was done?">
+            <Days.Day17 />
+         </Day>
          <NextDay />
       </section>
    )

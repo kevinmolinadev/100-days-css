@@ -1,0 +1,42 @@
+.bg-patterns-day17{
+    background-image: linear-gradient(to right, transparent 40%, #000000 40% 60%,transparent 60%);
+    background-size: 4%;
+    width: 150%;
+    height: 150%;
+}
+.content-day17{
+    box-shadow: 8px 8px 1rem #00000066;
+}
+.triangle-day17{
+    width: 60%;
+    height: 50%;
+    position: relative;
+    clip-path: polygon(95% 100%, 100% 85%, 55% 0, 40% 0, 0 85%, 10% 100%);
+}
+.triangle-piece{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: background-color 0.5s ease-in-out;
+}
+.triangle-piece:first-of-type{
+    background-color: #FFFFFF;
+    clip-path: polygon(40% 30%, 10% 100%, 0 85%, 40% 0%, 75% 70%, 60% 70%);
+}
+.triangle-day17:hover > .triangle-piece:first-of-type{
+    background-color: #AAAAAA;
+}
+.triangle-piece:nth-of-type(2){
+    background-color: #CCCCCC;
+    clip-path: polygon(100% 85%, 25% 85%, 30% 70%, 75% 70%, 40% 0, 55% 0);
+}
+.triangle-day17:hover > .triangle-piece:nth-of-type(2){
+    background-color: #FFFFFF;
+}
+.triangle-piece:nth-of-type(3){
+    background-color: #AAAAAA;
+    clip-path: polygon(10% 100%, 95% 100%, 100% 85%, 35% 85%, 50% 50%, 40% 30%);
+}
+.triangle-day17:hover > .triangle-piece:nth-of-type(3){
+    background-color: #CCCCCC;
+}

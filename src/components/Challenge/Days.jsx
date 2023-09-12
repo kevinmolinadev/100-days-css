@@ -26,6 +26,7 @@ import Day13 from '../Days/Day13';
 import Day14 from '../Days/Day14';
 import Day15 from '../Days/Day15';
 import Day16 from '../Days/Day16';
+import Day17 from '../Days/Day17';
 const Days = {
     Day1,
     Day1Tailwind,
@@ -54,6 +55,7 @@ const Days = {
     Day13,
     Day14,
     Day15,
-    Day16
+    Day16,
+    Day17
 }
 export default Days;
