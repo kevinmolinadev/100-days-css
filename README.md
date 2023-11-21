@@ -13,7 +13,7 @@ A partir del día 13, Los diseños se realizaran utilizando tanto CSS tradiciona
 - `src/components/Days-Tailwind/`: Carpetas donde están los diseños individuales con Tailwind.
 - `src/components/Days/`: Carpetas donde están los diseños desde el dia 13.
 ## 🌐 Enlaces
-- **Diseño en vivo**: [Ver aquí](https://molinalk.github.io/100-days-css)
+- **Diseño en vivo**: [Ver aquí](https://kevinmolinadev.github.io/100-days-css)
 - [Challenge](https://100dayscss.com/)
 ---
 ¡Gracias por visitar mi repositorio! Espero que disfrutes explorando mis diseños y aprendizaje en diseño web con CSS y Tailwind CSS.
